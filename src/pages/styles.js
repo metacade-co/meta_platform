@@ -1,3 +1,5 @@
+import BackgroundHome from "src/assets/BackgroundHome.png";
+
 const styles = {
   homePlayersReadyText: {
     padding: "44px 0 28px",
@@ -23,8 +25,103 @@ const styles = {
     backgroundColor: "#111111",
     borderRadius: "8px",
   },
-  homeSwiper: {
-    marginLeft: "60px",
+
+  homeFeaturedGamesSection: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "20px",
+    padding: "0px 78px",
+    margin: "0 auto",
+
+    "& h5": {
+      fontFamily: "var(--font-retro-gaming)",
+      fontSize: "20px",
+      fontWeight: "400",
+    },
+  },
+
+  homeFeaturedGamesSectionHeader: {
+    display: "flex",
+    justifyContent: "space-between",
+    marginTop: "40px",
+
+    "& h5": {
+      fontFamily: "var(--font-retro-gaming)",
+      fontSize: "20px",
+      fontWeight: "400",
+      "&:last-of-type": {
+        color: "#F6C928",
+      },
+    },
+  },
+
+  homeSwiperButton: {
+    position: "absolute",
+    top: "50%",
+    transform: "translateY(-50%)",
+    right: "-50px",
+  },
+
+  homeSwiperContainer: {
+    position: "relative",
+  },
+
+  homeDivider: {
+    border: "none",
+    height: "1px",
+    background: "#333333",
+    margin: "60px 0",
+  },
+
+  homeExploreSection: {
+    display: "flex",
+    minHeight: "1200px",
+    flexDirection: "column",
+    padding: "0 76px",
+    background: `url(${BackgroundHome.src})`,
+    backgroundSize: "cover",
+    "& > button": {
+      alignSelf: "center",
+      marginTop: "80px",
+    },
+  },
+
+  homeExploreSectionImage: {
+    width: "100%",
+    height: "auto",
+  },
+
+  homeExploreSectionHeader: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "26px",
+    justifyContent: "space-between",
+  },
+
+  homeExploreSectionHeaderText: {
+    flexGrow: "0",
+    fontFamily: "var(--font-gosha-sans)",
+    "& > h5": {
+      fontWeight: "400",
+      fontSize: "20px",
+      lineHeight: "24px",
+      marginBottom: "10px",
+    },
+    "& > h6": {
+      fontWeight: "400",
+      fontSize: "14px",
+      lineHeight: "22px",
+    },
+  },
+
+  homeExporeSectionHeaderButtons: {
+    flexGrow: "0.5",
+    display: "flex",
+    justifyContent: "space-between",
+    "& > button": {
+      clipPath:
+        "polygon(0 8px,4px 8px,4px 4px,8px 4px,8px 0,calc(100% - 8px) 0,calc(100% - 8px) 4px,calc(100% - 4px) 4px,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 8px),calc(100% - 4px) calc(100% - 8px),calc(100% - 4px) calc(100% - 4px),calc(100% - 8px) calc(100% - 4px),calc(100% - 8px) 100%,8px 100%,8px calc(100% - 4px),4px calc(100% - 4px),4px calc(100% - 8px),0 calc(100% - 8px))",
+    },
   },
 };
 

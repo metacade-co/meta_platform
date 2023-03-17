@@ -1,10 +1,9 @@
 import Footer from "src/components/Footer";
 import Header from "src/components/Header";
-import { Global, css } from "@emotion/react";
-import { AppBar, BottomNavigationAction, Box, Drawer, List, ThemeProvider, Toolbar } from "@mui/material";
-import "@/styles/globals.css";
-import { fonts } from "src/fonts";
+import { AppBar, BottomNavigationAction, Box, Drawer, List, Toolbar } from "@mui/material";
 import { ArcadeIcon, CommunityIcon, TrendingIcon, GrantsIcon, HomeIcon, LaunchpadIcon } from "src/assets/icons";
+import { fonts } from "src/fonts";
+import "@/styles/globals.css";
 
 const drawerWidth = 87;
 
