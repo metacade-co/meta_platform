@@ -20,3 +20,7 @@ export { default as DiscordIcon } from "./discordIcon.svg";
 export { default as TelegramIcon } from "./telegramIcon.svg";
 export { default as TwitterIcon } from "./twitterIcon.svg";
 export { default as YoutubeIcon } from "./youtubeIcon.svg";
+
+// Slider Arrow
+
+export { default as ArrowSliderNextButton } from "./sliderArrow.svg";
