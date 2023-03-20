@@ -10,8 +10,8 @@ const nextConfig = {
     return config;
   },
   compiler: {
-    emotion:true
-  }
+    emotion: true,
+  },
 };
 
 module.exports = nextConfig;
