@@ -4,34 +4,43 @@ import { AppBar, BottomNavigationAction, Box, Drawer, List, Toolbar } from "@mui
 import { ArcadeIcon, CommunityIcon, TrendingIcon, GrantsIcon, HomeIcon, LaunchpadIcon } from "src/assets/icons";
 import { fonts } from "src/fonts";
 import "@/styles/globals.css";
+import { useRouter } from "next/router";
 
 const drawerWidth = 87;
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
   const NavigationItems = [
     {
       icon: <HomeIcon />,
       text: "Home",
+      path: "/",
     },
     {
       icon: <TrendingIcon />,
       text: "Trending",
+      path: "/trending",
     },
     {
       icon: <ArcadeIcon />,
       text: "Arcade",
+      path: "/arcade",
     },
     {
       icon: <CommunityIcon />,
       text: "Community",
+      path: "/community",
     },
     {
       icon: <LaunchpadIcon />,
       text: "Launchpad",
+      path: "/launchpad",
     },
     {
       icon: <GrantsIcon />,
       text: "Grants",
+      path: "/grants",
     },
   ];
 
@@ -60,6 +69,7 @@ export default function App({ Component, pageProps }) {
           <List sx={{ display: "flex", flexDirection: "column", gap: "60px", padding: 0 }}>
             {NavigationItems.map((item) => (
               <BottomNavigationAction
+                onClick={() => router.push(item.path)}
                 showLabel={true}
                 key={item.text}
                 sx={{
