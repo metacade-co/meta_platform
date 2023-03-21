@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import styles from "src/pages/styles";
+import styles from "@/styles/styles";
 import Game1Image from "src/assets/game1.png";
 import Game2Image from "src/assets/game2.png";
 import Game3Image from "src/assets/game3.png";

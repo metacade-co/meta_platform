@@ -1,4 +1,4 @@
-import BackgroundHome from "src/assets/BackgroundHome.png";
+import BackgroundHome from "@/assets/BackgroundHome.png";
 
 const styles = {
   homePlayersReadyText: {
