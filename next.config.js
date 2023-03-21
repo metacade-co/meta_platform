@@ -10,8 +10,9 @@ const nextConfig = {
     return config;
   },
   compiler: {
-    emotion:true
-  }
+    emotion: true,
+  },
+  output: "standalone",
 };
 
 module.exports = nextConfig;

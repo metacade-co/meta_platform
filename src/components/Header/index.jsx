@@ -1,6 +1,6 @@
 import { GlobeIcon, NotificationIcon } from "src/assets/icons";
 import Image from "next/image";
-import MetacadeLogo from "src/assets/Metacade_logo.png";
+import MetacadeLogo from "src/assets/Metacade_Logo.png";
 import CustomInput from "src/components/common/CustomInput";
 import styles from "src/components/Header/styles";
 import CustomButton from "src/components/common/CustomButton";
