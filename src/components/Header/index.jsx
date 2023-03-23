@@ -4,8 +4,11 @@ import MetacadeLogo from "src/assets/Metacade_Logo.png";
 import CustomInput from "src/components/common/CustomInput";
 import styles from "src/components/Header/styles";
 import CustomButton from "src/components/common/CustomButton";
+import { useConnectModal } from "@rainbow-me/rainbowkit";
 
 function Header() {
+  const { openConnectModal } = useConnectModal();
+
   return (
     <div css={styles.headerContainer}>
       <div css={styles.headerLogoInput}>
@@ -20,7 +23,14 @@ function Header() {
         </div>
         <div css={styles.headerButtons}>
           <CustomButton bgColor="#B231C4">Play</CustomButton>
-          <CustomButton bgColor="#009FE3">Connect Wallet</CustomButton>
+          <CustomButton
+            bgColor="#009FE3"
+            onClick={() => {
+              openConnectModal();
+            }}
+          >
+            Connect Wallet
+          </CustomButton>
         </div>
       </div>
     </div>
