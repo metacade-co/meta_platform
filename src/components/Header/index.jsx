@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useAccount } from "wagmi";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
 
@@ -14,14 +14,18 @@ import styles from "src/components/Header/styles";
 import { CartIcon, ProfileIcon } from "@/assets/icons";
 
 function Header() {
+  const [isWalletConnected, setIsWalletConnected] = useState(false);
+
   const { openConnectModal } = useConnectModal();
   const { address, isConnected } = useAccount();
 
   const handleConnectButton = () => {
-    isConnected ? null : openConnectModal();
+    isWalletConnected ? null : openConnectModal();
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    setIsWalletConnected(isConnected);
+  }, [isConnected]);
 
   return (
     <div css={styles.headerContainer}>
@@ -42,7 +46,7 @@ function Header() {
         <div css={styles.headerButtons}>
           <CustomButton bgColor="#B231C4">Play</CustomButton>
           <CustomButton bgColor="#009FE3" onClick={handleConnectButton}>
-            {isConnected ? formatEthereumAddress(address) : "Connect Wallet"}
+            {isWalletConnected ? formatEthereumAddress(address) : "Connect Wallet"}
           </CustomButton>
         </div>
       </div>
