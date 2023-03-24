@@ -1,6 +1,9 @@
+// Header Icons
 export { default as SearchIcon } from "./searchIcon.svg";
 export { default as PacmanIcon } from "./pacmanIcon.svg";
 export { default as GlobeIcon } from "./globeIcon.svg";
+export { default as ProfileIcon } from "./profileIcon.svg";
+export { default as CartIcon } from "./cartIcon.svg";
 export { default as NotificationIcon } from "./notificationIcon.svg";
 
 // Navigation Icons
