@@ -32,12 +32,6 @@ const styles = {
     gap: "20px",
     padding: "0px 78px",
     margin: "0 auto",
-
-    "& h5": {
-      fontFamily: "var(--font-retro-gaming)",
-      fontSize: "20px",
-      fontWeight: "400",
-    },
   },
 
   homeFeaturedGamesSectionHeader: {
@@ -79,7 +73,10 @@ const styles = {
     flexDirection: "column",
     padding: "0 76px",
     background: `url(${BackgroundHome.src})`,
-    backgroundSize: "cover",
+    backgroundSize: "100% 100%",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+
     "& > button": {
       alignSelf: "center",
       marginTop: "80px",

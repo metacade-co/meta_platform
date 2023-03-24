@@ -82,6 +82,20 @@ export default function Home() {
                 text="The battles take place in arenas full of ramps, platforms and hazards! Hiding is not an option as the sudden-death mechanics..."
               />
             </SwiperSlide>
+            <SwiperSlide>
+              <SwiperFeatureCard
+                image={Game1Image}
+                alt="game1"
+                text="One part western, one part zombie apocalypse. Who can survive the epic battle in this first person shooter. Latest game by award winn..."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SwiperFeatureCard
+                image={Game1Image}
+                alt="game1"
+                text="One part western, one part zombie apocalypse. Who can survive the epic battle in this first person shooter. Latest game by award winn..."
+              />
+            </SwiperSlide>
           </Swiper>
           <ArrowSliderNextButton onClick={() => swiperRef.current.slideNext()} css={styles.homeSwiperButton} />
         </div>
