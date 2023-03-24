@@ -1,13 +1,27 @@
-import { GlobeIcon, NotificationIcon } from "src/assets/icons";
+import { useEffect } from "react";
+import { useAccount } from "wagmi";
+import { useConnectModal } from "@rainbow-me/rainbowkit";
+
 import Image from "next/image";
+import CustomButton from "src/components/common/CustomButton";
+import { GlobeIcon, NotificationIcon } from "src/assets/icons";
 import MetacadeLogo from "src/assets/Metacade_Logo.png";
 import CustomInput from "src/components/common/CustomInput";
+
+import { formatEthereumAddress } from "src/utils/string.helpers";
+
 import styles from "src/components/Header/styles";
-import CustomButton from "src/components/common/CustomButton";
-import { useConnectModal } from "@rainbow-me/rainbowkit";
+import { CartIcon, ProfileIcon } from "@/assets/icons";
 
 function Header() {
   const { openConnectModal } = useConnectModal();
+  const { address, isConnected } = useAccount();
+
+  const handleConnectButton = () => {
+    isConnected ? null : openConnectModal();
+  };
+
+  useEffect(() => {}, []);
 
   return (
     <div css={styles.headerContainer}>
@@ -20,16 +34,15 @@ function Header() {
           <GlobeIcon />
           <span css={styles.headerDivider} />
           <NotificationIcon />
+          <span css={styles.headerDivider} />
+          <ProfileIcon />
+          <span css={styles.headerDivider} />
+          <CartIcon />
         </div>
         <div css={styles.headerButtons}>
           <CustomButton bgColor="#B231C4">Play</CustomButton>
-          <CustomButton
-            bgColor="#009FE3"
-            onClick={() => {
-              openConnectModal();
-            }}
-          >
-            Connect Wallet
+          <CustomButton bgColor="#009FE3" onClick={handleConnectButton}>
+            {isConnected ? formatEthereumAddress(address) : "Connect Wallet"}
           </CustomButton>
         </div>
       </div>
