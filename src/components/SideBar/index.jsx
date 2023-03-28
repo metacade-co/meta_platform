@@ -31,7 +31,7 @@ function SideBar({ drawerWidth }) {
             sx={{
               ".MuiBottomNavigationAction-label": {
                 color: "#ffffff",
-                fontFamily: "var(--font-retro-gaming)",
+                fontFamily: "var(--font-joystix)",
                 textTransform: "uppercase",
                 marginTop: "16px",
                 fontSize: "11px",
