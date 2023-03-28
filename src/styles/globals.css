@@ -1,4 +1,10 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
+.swiper-slide {
+  width: auto;
+}
 
 :root {
   --max-width: 1100px;

@@ -3,7 +3,7 @@ import BackgroundHome from "@/assets/BackgroundHome.png";
 const styles = {
   homePlayersReadyText: {
     padding: "44px 0 28px",
-    fontFamily: "var(--font-retro-gaming)",
+    fontFamily: "var(--font-joystix)",
     background: "linear-gradient(90.06deg, #EF692A 0.05%, #F1E917 99.25%)",
     backgroundClip: "text",
     textFillColor: "transparent",
@@ -40,7 +40,7 @@ const styles = {
     marginTop: "40px",
 
     "& h5": {
-      fontFamily: "var(--font-retro-gaming)",
+      fontFamily: "var(--font-joystix)",
       fontSize: "20px",
       fontWeight: "400",
       "&:last-of-type": {

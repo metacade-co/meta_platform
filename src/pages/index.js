@@ -1,17 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import styles from "@/styles/styles";
+import styles from "src/styles/styles";
 import Game1Image from "src/assets/game1.png";
 import Game2Image from "src/assets/game2.png";
 import Game3Image from "src/assets/game3.png";
 import ExploreImage from "src/assets/exploreImage.png";
 import Image from "next/image";
-import SwiperFeatureCard from "@/components/common/SwiperFeatureCard";
+import SwiperFeatureCard from "src/components/common/SwiperFeatureCard";
 import { useRef } from "react";
-import { ArrowSliderNextButton } from "@/assets/icons";
-import CustomButton from "@/components/common/CustomButton";
+import { ArrowSliderNextButton } from "src/assets/icons";
+import CustomButton from "src/components/common/CustomButton";
 
 export default function Home() {
   const swiperRef = useRef();

@@ -1,6 +1,6 @@
 const styles = (bgColor = "#222222", textColor = "#ffffff") => ({
   textTransform: "uppercase",
-  fontFamily: "var(--font-retro-gaming)",
+  fontFamily: "var(--font-joystix)",
   backgroundColor: bgColor,
   color: textColor,
   padding: "12px 20px",
