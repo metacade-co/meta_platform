@@ -1,6 +1,6 @@
 import CustomButton from "src/components/common/CustomButton";
 import ArcadeCarousel from "src/components/ArcadeCarousel";
-import styles from "src/pages/arcade/styles";
+import styles from "src/styles/arcade.styles";
 
 function Arcade() {
   return (
