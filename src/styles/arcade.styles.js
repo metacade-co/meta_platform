@@ -5,7 +5,13 @@ const styles = {
     flexDirection: "column",
   },
   arcadePageCarouselsBlock: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "40px",
     marginBottom: "56px",
+    overflowX: "hidden !important",
+    overflowY: "visible !important",
+    margin: "0 20px",
   },
 
   arcadePageNetworkHeading: {
