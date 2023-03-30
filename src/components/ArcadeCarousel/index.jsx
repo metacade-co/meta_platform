@@ -10,16 +10,22 @@ function ArcadeCarousel({ carouselTitle, games }) {
 
   const Games = games.map((game) => {
     return (
-      <SwiperSlide key={game.gameName}>
+      <SwiperSlide key={game.gameName} tag="slide">
         <div css={styles.carouselItem}>
           <Image src={game.imageURL} width="256" height="136" alt={game.gameName} />
+        </div>
+        <div>
+          <p>dsadsads</p>
+          <p>dsadsads</p>
+          <p>dsadsads</p>
+          <p>dsadsads</p>
         </div>
       </SwiperSlide>
     );
   });
 
   return (
-    <div css={styles.carouselContainer}>
+    <div>
       <h5 css={styles.carouselTitle}>{carouselTitle}</h5>
       <div css={styles.carouselWrapper}>
         <div css={styles.carouselSwiperButton(isButtonVisible)}>
@@ -30,6 +36,8 @@ function ArcadeCarousel({ carouselTitle, games }) {
           />
         </div>
         <Swiper
+          touchEventsTarget="container"
+          nested={true}
           onSwiper={(swiper) => {
             setIsButtonVisible(swiper.size <= swiper.slidesGrid[swiper.slidesGrid.length - 1]);
             swiperRef.current = swiper;

@@ -1,19 +1,32 @@
 const styles = {
-  aloha: {
-    color: "black",
-  },
   arcadePage: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
   },
 
-  carouselContainer: {
-    margin: "0 20px 40px",
-  },
-
   carouselWrapper: {
     position: "relative",
+
+    "& slide": {
+      "& > div:last-of-type": {
+        position: "absolute",
+        display: "none",
+        background: "red",
+        width: "100%",
+      },
+      "&:hover": {
+        zIndex: "999999999",
+        transform: "scale(1.2) translate3d(0,0,100000px)",
+        transformOrigin: "left",
+
+        "& > div:last-of-type": {
+          position: "absolute",
+          display: "block",
+          zIndex: "22",
+        },
+      },
+    },
   },
 
   carouselSwiperButton: (isButtonVisible) => ({
@@ -51,12 +64,20 @@ const styles = {
   },
 
   carouselItem: {
-    width: "256px",
-    height: "136px",
-
+    "& > div:nth(:last-of-type)": {
+      position: "absolute",
+      display: "none",
+    },
     "& img": {
       width: "100%",
+      margin: "0",
     },
+  },
+
+  carouselItemDescription: {
+    width: "100%",
+    height: "100px",
+    background: "red",
   },
 };
 
