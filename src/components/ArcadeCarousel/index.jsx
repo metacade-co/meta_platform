@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 import styles from "src/components/ArcadeCarousel/styles";
 import { ArrowSliderNextButton } from "src/assets/icons";
 import { useRef, useState } from "react";
+import SwiperArcadeSlide from "src/components/common/SwiperArcadeSlide";
 
 function ArcadeCarousel({ carouselTitle, games }) {
   const [isButtonVisible, setIsButtonVisible] = useState(false);
@@ -10,16 +10,8 @@ function ArcadeCarousel({ carouselTitle, games }) {
 
   const Games = games.map((game) => {
     return (
-      <SwiperSlide key={game.gameName} tag="slide">
-        <div css={styles.carouselItem}>
-          <Image src={game.imageURL} width="256" height="136" alt={game.gameName} />
-        </div>
-        <div>
-          <p>dsadsads</p>
-          <p>dsadsads</p>
-          <p>dsadsads</p>
-          <p>dsadsads</p>
-        </div>
+      <SwiperSlide tag="slide" key={game.name}>
+        <SwiperArcadeSlide gameInfo={game} />
       </SwiperSlide>
     );
   });

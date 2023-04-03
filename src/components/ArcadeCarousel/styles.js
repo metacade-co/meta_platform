@@ -9,22 +9,8 @@ const styles = {
     position: "relative",
 
     "& slide": {
-      "& > div:last-of-type": {
-        position: "absolute",
-        display: "none",
-        background: "red",
-        width: "100%",
-      },
       "&:hover": {
-        zIndex: "999999999",
-        transform: "scale(1.2) translate3d(0,0,100000px)",
-        transformOrigin: "left",
-
-        "& > div:last-of-type": {
-          position: "absolute",
-          display: "block",
-          zIndex: "22",
-        },
+        zIndex: "20",
       },
     },
   },
