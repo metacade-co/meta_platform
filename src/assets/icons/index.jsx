@@ -27,3 +27,9 @@ export { default as YoutubeIcon } from "./youtubeIcon.svg";
 // Slider Arrow
 
 export { default as ArrowSliderNextButton } from "./sliderArrow.svg";
+
+// Game Details Icons
+
+export { default as AddToPlaylistIcon } from "./playlist.svg";
+export { default as LikeIcon } from "./like.svg";
+export { default as InformationIcon } from "./info.svg";
