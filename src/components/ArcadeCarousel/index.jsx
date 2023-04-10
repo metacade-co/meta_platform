@@ -1,13 +1,23 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "src/components/ArcadeCarousel/styles";
 import { ArrowSliderNextButton } from "src/assets/icons";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import SwiperArcadeSlide from "src/components/common/SwiperArcadeSlide";
 
-function ArcadeCarousel({ carouselTitle, games }) {
+function ArcadeCarousel({ carouselTitle }) {
+  const [games, setGames] = useState();
   const [isButtonVisible, setIsButtonVisible] = useState(false);
   const [isSlideHovered, setIsSlideHovered] = useState(false);
   const swiperRef = useRef();
+
+  useEffect(() => {
+    fetch(`http://localhost:3000/api/getGamesByCategory?category=${carouselTitle}`)
+      .then((res) => res.json())
+      .then((games) => {
+        setGames(games);
+      })
+      .catch((error) => console.log(error));
+  }, [carouselTitle]);
 
   const Games = games?.map((game) => {
     return (
@@ -37,6 +47,7 @@ function ArcadeCarousel({ carouselTitle, games }) {
           <Swiper
             touchEventsTarget="container"
             nested={true}
+            rewind={true}
             onSwiper={(swiper) => {
               setIsButtonVisible(swiper.size <= swiper.slidesGrid[swiper.slidesGrid.length - 1]);
               swiperRef.current = swiper;
