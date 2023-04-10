@@ -9,27 +9,13 @@ const styles = {
     position: "relative",
 
     "& slide": {
-      "& > div:last-of-type": {
-        position: "absolute",
-        display: "none",
-        background: "red",
-        width: "100%",
-      },
       "&:hover": {
-        zIndex: "999999999",
-        transform: "scale(1.2) translate3d(0,0,100000px)",
-        transformOrigin: "left",
-
-        "& > div:last-of-type": {
-          position: "absolute",
-          display: "block",
-          zIndex: "22",
-        },
+        zIndex: "20",
       },
     },
   },
 
-  carouselSwiperButton: (isButtonVisible) => ({
+  carouselSwiperButton: (isButtonVisible, isSlideHovered) => ({
     display: isButtonVisible ? "flex" : "none",
     height: "100%",
     flexDirection: "column",
@@ -39,6 +25,8 @@ const styles = {
     right: "0",
     width: "132px",
     zIndex: "2",
+    transition: "all .1s ease-in-out",
+    opacity: isSlideHovered ? "1" : "0",
     background: "linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%)",
 
     "& svg": {
@@ -51,7 +39,6 @@ const styles = {
 
       "& svg": {
         opacity: "1",
-        transition: "opacity .2s ease-in-out",
       },
     },
   }),

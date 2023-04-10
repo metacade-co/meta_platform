@@ -3,15 +3,14 @@ const styles = {
     padding: "44px 0",
     display: "flex",
     flexDirection: "column",
+    overflowX: "hidden !important",
+    margin: "0 0 0 20px",
   },
   arcadePageCarouselsBlock: {
     display: "flex",
     flexDirection: "column",
     gap: "40px",
     marginBottom: "56px",
-    overflowX: "hidden !important",
-    overflowY: "visible !important",
-    margin: "0 20px",
   },
 
   arcadePageNetworkHeading: {

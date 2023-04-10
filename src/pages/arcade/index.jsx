@@ -16,303 +16,116 @@ function Arcade() {
         </div>
       </div>
       <div css={styles.arcadePageCarouselsBlock}>
-        <ArcadeCarousel
-          carouselTitle="Shooter"
-          games={[
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaA",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaV",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaC",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsah",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsal",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa0",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa1",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa2",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa3",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa4",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa5",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa55",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa66",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa77",
-            },
-          ]}
-        />
-        <ArcadeCarousel
-          carouselTitle="Strategy"
-          games={[
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaA",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaV",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaC",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsah",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsal",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa0",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa1",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa2",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa3",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa4",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa5",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa55",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa66",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa77",
-            },
-          ]}
-        />
-        <ArcadeCarousel
-          carouselTitle="Driving"
-          games={[
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaA",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaV",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaC",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsah",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsal",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa0",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa1",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa2",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa3",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa4",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa5",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa55",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa66",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa77",
-            },
-          ]}
-        />
-        <ArcadeCarousel
-          carouselTitle="RPG"
-          games={[
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaA",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaV",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaC",
-            },
-          ]}
-        />
-        <ArcadeCarousel
-          carouselTitle="Fighting"
-          games={[
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaA",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaV",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsaC",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsad",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsah",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsal",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa0",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa1",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa2",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa3",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa4",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa5",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa55",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa66",
-            },
-            {
-              imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
-              gameName: "dsa77",
-            },
-          ]}
-        />
+        <div style={{ position: "relative", zIndex: "2" }}>
+          <ArcadeCarousel
+            carouselTitle="Shooter"
+            games={[
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+            ]}
+          />
+        </div>
+        <div style={{ position: "relative", zIndex: "1" }}>
+          <ArcadeCarousel
+            carouselTitle="Strategy"
+            games={[
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+            ]}
+          />
+        </div>
       </div>
       <CustomButton css={styles.arcadePageButton} bgColor="#009FE3">
         More games

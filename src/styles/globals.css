@@ -3,18 +3,18 @@
 @import "swiper/css/pagination";
 
 .swiper {
-  position: static;
   overflow: visible;
 }
 .swiper-slide {
-  transition: transform 0.3s ease;
   width: auto;
-  position: static;
-  z-index: 1;
 }
 
-.swiper-wrapper {
-  transform: translate(0,0,0) !important;
+app {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://metacade-files.fra1.digitaloceanspaces.com/images/BG_Metaverse.png');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
 }
 
 :root {

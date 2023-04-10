@@ -1,5 +1,3 @@
-import BackgroundHome from "@/assets/BackgroundHome.png";
-
 const styles = {
   homePlayersReadyText: {
     padding: "44px 0 28px",
@@ -54,10 +52,15 @@ const styles = {
     top: "50%",
     transform: "translateY(-50%)",
     right: "-50px",
+    zIndex: "10",
   },
 
   homeSwiperContainer: {
     position: "relative",
+  },
+
+  homeSwiper: {
+    overflow: "hidden !important",
   },
 
   homeDivider: {
@@ -72,10 +75,6 @@ const styles = {
     minHeight: "1200px",
     flexDirection: "column",
     padding: "0 76px",
-    background: `url(${BackgroundHome.src})`,
-    backgroundSize: "100% 100%",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
 
     "& > button": {
       alignSelf: "center",

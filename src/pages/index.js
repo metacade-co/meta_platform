@@ -35,7 +35,7 @@ export default function Home() {
             }}
             loop={true}
             spaceBetween={24}
-            slidesPerView={4}
+            slidesPerView="auto"
           >
             <SwiperSlide>
               <SwiperFeatureCard
