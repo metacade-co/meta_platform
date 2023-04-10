@@ -79,25 +79,17 @@ const games = [
 ];
 
 export default function handler(req, res) {
-  if (req.method === "GET") {
-    const { category } = req.query;
-    switch (category) {
-      case "Strategy":
-        res.status(200).json(
-          games.filter(({ tags }) => {
-            return tags.includes("Strategy");
-          }),
-        );
-        break;
-      case "MMO":
-        res.status(200).json(
-          games.filter(({ tags }) => {
-            return tags.includes("MMO");
-          }),
-        );
-        break;
-      default:
-        res.status(200).json({ games });
-    }
+  const { query, method } = req;
+
+  switch (method) {
+    case "GET":
+      res.status(200).json(
+        games.filter(({ tags }) => {
+          return tags.includes(query.category);
+        }),
+      );
+      break;
+    default:
+      res.status(404).end(`Provide a category!`);
   }
 }
