@@ -34,6 +34,7 @@ export default function Home() {
               swiperRef.current = swiper;
             }}
             loop={true}
+            rewind={true}
             spaceBetween={24}
             slidesPerView="auto"
           >
