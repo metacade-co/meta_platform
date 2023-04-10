@@ -5,11 +5,12 @@ const styles = {
 
     "& img": {
       width: "100%",
+      cursor: "pointer",
       margin: "0",
     },
 
     "&:hover": {
-      transform: "scale(1.4)",
+      transform: "scale(1.3) ",
       transition: "transform .3s ease",
 
       "& > div:last-of-type": {

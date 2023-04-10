@@ -15,7 +15,7 @@ const styles = {
     },
   },
 
-  carouselSwiperButton: (isButtonVisible) => ({
+  carouselSwiperButton: (isButtonVisible, isSlideHovered) => ({
     display: isButtonVisible ? "flex" : "none",
     height: "100%",
     flexDirection: "column",
@@ -25,6 +25,8 @@ const styles = {
     right: "0",
     width: "132px",
     zIndex: "2",
+    transition: "all .1s ease-in-out",
+    opacity: isSlideHovered ? "1" : "0",
     background: "linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%)",
 
     "& svg": {
@@ -37,7 +39,6 @@ const styles = {
 
       "& svg": {
         opacity: "1",
-        transition: "opacity .2s ease-in-out",
       },
     },
   }),
