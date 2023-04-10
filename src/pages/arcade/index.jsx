@@ -27,6 +27,87 @@ function Arcade() {
               },
               {
                 imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaB",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
+                name: "dsaA",
+                tags: ["Strategy", "RPG", "MMO"],
+              },
+              {
+                imageURL: "https://metacade-files.fra1.digitaloceanspaces.com/images/gamesImages/256x136/mars4.png",
                 name: "dsaB",
                 tags: ["Strategy", "RPG", "MMO"],
               },
