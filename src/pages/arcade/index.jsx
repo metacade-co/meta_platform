@@ -1,6 +1,6 @@
 import CustomButton from "src/components/common/CustomButton";
 import ArcadeCarousel from "src/components/ArcadeCarousel";
-import styles from "src/styles/arcade.styles";
+import styles from "src/styles/arcade/arcade.styles";
 
 function Arcade() {
   return (
@@ -16,11 +16,20 @@ function Arcade() {
         </div>
       </div>
       <div css={styles.arcadePageCarouselsBlock}>
-        <div style={{ position: "relative", zIndex: "2" }}>
+        <div style={{ position: "relative", zIndex: "5" }}>
+          <ArcadeCarousel carouselTitle="Shooter" />
+        </div>
+        <div style={{ position: "relative", zIndex: "4" }}>
           <ArcadeCarousel carouselTitle="Strategy" />
         </div>
+        <div style={{ position: "relative", zIndex: "3" }}>
+          <ArcadeCarousel carouselTitle="Driving" />
+        </div>
+        <div style={{ position: "relative", zIndex: "2" }}>
+          <ArcadeCarousel carouselTitle="RPG" />
+        </div>
         <div style={{ position: "relative", zIndex: "1" }}>
-          <ArcadeCarousel carouselTitle="MMO" />
+          <ArcadeCarousel carouselTitle="Driving" />
         </div>
       </div>
       <CustomButton css={styles.arcadePageButton} bgColor="#009FE3">
