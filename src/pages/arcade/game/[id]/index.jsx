@@ -78,7 +78,7 @@ function GameDetails() {
 
   useEffect(() => {
     if (gameId)
-      fetch(`http://localhost:3000/api/game/${gameId}`)
+      fetch(`http://164.92.203.53:3002/api/game/${gameId}`)
         .then((res) => res.json())
         .then((game) => setGameInfo(game))
         .catch((error) => console.log(error));

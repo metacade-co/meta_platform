@@ -11,7 +11,7 @@ function ArcadeCarousel({ carouselTitle }) {
   const swiperRef = useRef();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/api/games/${carouselTitle}`)
+    fetch(`http://164.92.203.53:3002/api/games/${carouselTitle}`)
       .then((res) => res.json())
       .then((games) => setGames(games))
       .catch((error) => console.log(error));
