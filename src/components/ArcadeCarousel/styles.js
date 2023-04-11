@@ -8,7 +8,7 @@ const styles = {
   carouselWrapper: {
     position: "relative",
 
-    "& slide": {
+    "& div > div > div": {
       "&:hover": {
         zIndex: "20",
       },
