@@ -8,6 +8,7 @@ export { default as NotificationIcon } from "./notificationIcon.svg";
 
 // Navigation Icons
 
+export { default as ArrowIcons } from "./arrow.svg";
 export { default as HomeIcon } from "./homeIcon.svg";
 export { default as TrendingIcon } from "./trendingIcon.svg";
 export { default as ArcadeIcon } from "./arcadeIcon.svg";
@@ -33,3 +34,5 @@ export { default as ArrowSliderNextButton } from "./sliderArrow.svg";
 export { default as AddToPlaylistIcon } from "./playlist.svg";
 export { default as LikeIcon } from "./like.svg";
 export { default as InformationIcon } from "./info.svg";
+export { default as ShareIcon } from "./share.svg";
+export { default as PlusIcon } from "./plus.svg";

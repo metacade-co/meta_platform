@@ -6,8 +6,8 @@ export default function handler(req, res) {
   switch (method) {
     case "GET":
       res.status(200).json(
-        games.filter(({ tags }) => {
-          return tags.includes(query.category);
+        games.find(({ id }) => {
+          return id == query.id;
         }),
       );
       break;

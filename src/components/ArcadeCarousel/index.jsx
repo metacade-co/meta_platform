@@ -13,16 +13,13 @@ function ArcadeCarousel({ carouselTitle }) {
   useEffect(() => {
     fetch(`http://localhost:3000/api/games/${carouselTitle}`)
       .then((res) => res.json())
-      .then((games) => {
-        setGames(games);
-      })
+      .then((games) => setGames(games))
       .catch((error) => console.log(error));
   }, [carouselTitle]);
 
   const Games = games?.map((game) => {
     return (
       <SwiperSlide
-        tag="slide"
         key={game.name}
         onMouseEnter={() => setIsSlideHovered(false)}
         onMouseLeave={() => setIsSlideHovered(true)}

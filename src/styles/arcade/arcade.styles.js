@@ -1,6 +1,6 @@
 const styles = {
   arcadePage: {
-    padding: "44px 0",
+    padding: "44px 0 30% 0",
     display: "flex",
     flexDirection: "column",
     overflowX: "hidden !important",
