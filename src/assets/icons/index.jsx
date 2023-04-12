@@ -40,3 +40,6 @@ export { default as PlusIcon } from "./plus.svg";
 // CommunityPage Icons
 
 export { default as StarIcon } from "./star.svg";
+export { default as FaceIcon } from "./face.svg";
+export { default as UsersIcon } from "./users.svg";
+export { default as CalcIcon } from "./calc.svg";
