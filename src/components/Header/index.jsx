@@ -11,7 +11,7 @@ import CustomInput from "src/components/common/CustomInput";
 import { formatEthereumAddress } from "src/utils/string.helpers";
 
 import styles from "src/components/Header/styles";
-import { CartIcon, ProfileIcon } from "@/assets/icons";
+import { CartIcon, ProfileIcon } from "src/assets/icons";
 
 function Header() {
   const [isWalletConnected, setIsWalletConnected] = useState(false);

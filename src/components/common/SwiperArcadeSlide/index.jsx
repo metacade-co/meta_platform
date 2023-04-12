@@ -2,7 +2,7 @@ import Image from "next/image";
 import CustomButton from "../CustomButton";
 import { Fragment } from "react";
 import styles from "src/components/common/SwiperArcadeSlide/styles";
-import { AddToPlaylistIcon, InformationIcon, LikeIcon } from "@/assets/icons";
+import { AddToPlaylistIcon, InformationIcon, LikeIcon } from "src/assets/icons";
 import Link from "next/link";
 
 function SwiperArcadeSlide({ gameInfo }) {

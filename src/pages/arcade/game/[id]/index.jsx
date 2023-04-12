@@ -1,10 +1,10 @@
-import { ArrowIcons } from "src/assets/icons";
+import { ArrowIcon } from "src/assets/icons";
 import { useRouter } from "next/router";
 import styles from "src/styles/arcade/gameDetails.styles";
 import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
-import CustomButton from "@/components/common/CustomButton";
-import { LikeIcon, PlusIcon, ShareIcon } from "@/assets/icons";
+import CustomButton from "src/components/common/CustomButton";
+import { LikeIcon, PlusIcon, ShareIcon } from "src/assets/icons";
 import parse from "html-react-parser";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Filler } from "chart.js";
 import { Line } from "react-chartjs-2";
@@ -110,7 +110,7 @@ function GameDetails() {
       <div css={styles.gameDetailsHeader}>
         <div css={styles.gameDetailsHeaderLeft}>
           <div css={styles.gameDetailsBackButton} onClick={back}>
-            <ArrowIcons />
+            <ArrowIcon />
             <span>Back</span>
           </div>
           <div css={styles.gameDetailsIconBlock}>
