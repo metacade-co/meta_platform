@@ -43,3 +43,18 @@ export { default as StarIcon } from "./star.svg";
 export { default as FaceIcon } from "./face.svg";
 export { default as UsersIcon } from "./users.svg";
 export { default as CalcIcon } from "./calc.svg";
+
+//CommunityPage Social Icons
+
+export { default as CommunityLinkTreeIcon } from "./commintyPageSocials/linkTreeIcon.svg";
+export { default as CommunityTikTokIcon } from "./commintyPageSocials/tiktokIcon.svg";
+export { default as CommunityYoutubeIcon } from "./commintyPageSocials/youtubeIcon.svg";
+export { default as CommunityLinkedinIcon } from "./commintyPageSocials/linkedinIcon.svg";
+export { default as CommunityInstagramIcon } from "./commintyPageSocials/instagramIcon.svg";
+export { default as CommunityTelegramIcon } from "./commintyPageSocials/telegramIcon.svg";
+export { default as CommunityDiscordIcon } from "./commintyPageSocials/discordIcon.svg";
+export { default as CommunityTwitterIcon } from "./commintyPageSocials/twitterIcon.svg";
+
+export { default as CommunityTwitterIconSmall } from "./commintyPageSocials/twitterIconSmall.svg";
+export { default as CommunityYoutubeIconSmall } from "./commintyPageSocials/youtubeIconSmall.svg";
+export { default as CommunityInstagramIconSmall } from "./commintyPageSocials/instagramIconSmall.svg";
